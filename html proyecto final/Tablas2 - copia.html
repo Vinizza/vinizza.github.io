@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mis gustos</title>
+	<link rel="stylesheet" href="../css 2/css 2 stylepage.css">
+	<style type="text/css">
+		h1{
+			font-size: 45pt
+		}
+		table{
+			font-family: Montserrat;
+		}
+		#tabla_uno {
+			width: 100%;
+			text-align: center;
+			margin: 10px auto;
+			color: #A64826;
+			border-style: solid;
+			border-color: #59180A;
+			border-width: 5px;
+		}
+		#tabla_uno th {
+			background-color: #F2F2F2;
+		}
+		#tabla_uno td {
+			background-color: #59180A;
+			color: #F0ECE6;
+			text-align: left;
+			border-radius: 5px;
+			margin: 10px;
+			border-style: solid;
+			border-color: #BFB0AA;
+			border-width: 1px;
+		}
+		
+		#celda_centrada {
+			text-align: center;
+			padding: 0px;
+			background-color: #CE7095;
+		}
+		
+		#tabla_zebra{
+			width: 100%;
+			margin: 10px auto;
+			border-style: dashed;
+			border-color: #A64826;
+			text-align: center;
+				
+		}
+		#tabla_zebra tbody tr:nth-child(even)
+		{background-color: #A64826;
+			color: #F2F2F2;
+		}
+		#tabla_zebra tbody tr:nth-child(odd){
+			background-color: #F7F1E1;
+		}
+		#tabla_zebra thead tr{
+			background-color: #59180A;
+			color: #F0ECE6;
+		}
+		.tabla_hover{
+			width: 80%;
+			margin: 10px auto;
+			border-style: double;
+			border-color: #A64826;
+			text-align: center;
+			border-spacing: 5px;
+			background-color: #F0ECE6;
+			
+	
+		}
+		.tabla_hover th{
+			background-color: #59180A;
+			color: #F2F2F2;
+				border-radius: 5px;
+			border-width: 2px;
+			
+			
+		}
+		.tabla_hover tr, .tabla_hover tr{
+			background-color: #BFB0AA;
+			border-radius: 5px;
+			border-width: 2px;
+			border-style: solid;
+		}
+		.tabla_hover tr:hover{
+			background-color: #F0ECE6;
+			
+		}
+		
+	
+				
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Mis gustos y familia</h1>
+	</header>
+	<nav>
+		<ul>
+		<li><a href="../index.html">Inicio</a></li>
+		<li><a href="listas - copia.html">Listas</a></li>
+		<li><a href="STYLEPAGE - copia.html">Imágenes</a></li>
+		<li><a href="Audio - copia.html">Audios</a></li>
+		<li><a href="Video - copia.html">Videos</a></li>
+		<li><a href="Tablas2 - copia.html">Mis gustos y familia</a></li>
+		<li><a href="Enlaces - copia.html">Enlaces</a></li>
+		<li><a href="Formulario - copia.html">Formulario</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section style="overflow: auto;">
+			<h2>Tabla familiar</h2>
+			<p>La tabla sobre los datos familiares muestra información organizada sobre los miembros clave de mi familia. En ella se detallan los nombres, roles y algunas características de cada uno:</p>
+			<table border="1" id="tabla_uno">
+				<thead>
+					<tr>
+						
+						<th>Nombre</th>
+						<th>Apellidos</th>
+						<th>Ciudad de residencia</th>
+						<th>Ocupación</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					
+						<td>Vinizza</td>
+						<td>Sampé Orozco</td>
+						<td>Puebla</td>
+						<td>Estudiante de Diseño</td>
+					</tr>
+					<tr>
+					
+						<td>Heily</td>
+						<td>Sampé Orozco</td>
+						<td>Puebla</td>
+						<td>Estudiante de Preparatoria</td>
+					</tr>
+					<tr>
+						
+						<td>José</td>
+						<td>Pardo Orozco</td>
+						<td>Colima</td>
+						<td>Trabajador</td>
+					</tr>
+					<tr>
+						
+						<td>Tamara</td>
+						<td>Pardo Romero</td>
+						<td>Colima</td>
+						<td>Estudiante de Secundaria</td>
+					</tr>
+					<tr>
+						
+						<td>Martha</td>
+						<td>Orozco López</td>
+						<td>Puebla</td>
+						<td>Ama de casa</td>
+					</tr>
+					<tr>
+					
+						<td>Antonio</td>
+						<td>Sampé Quecha</td>
+						<td>Puebla</td>
+						<td>Trabajador</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section style="overflow: auto;">
+			<h2>Mis series favoritas</h2>
+			<p>La siguiente tabla es de mis series favoritas y que recomendaría si alguien me pregunta:</p>
+			<table id="tabla_zebra">
+			<thead>
+				<tr>
+					<th>Título de la serie</th>
+					<th>Género</th>
+					<th>Año de estreno</th>
+					<th>Número de temporadas</th>
+					<th>Sipnosis breve</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>Stranger Things</td>
+					<td>Ciencia ficción, terror</td>
+					<td>2016</td>
+					<td>4</td>
+					<td>Un grupo de niños investiga la desaparición de su amigo y se topa con secretos sobrenaturales.</td>
+				</tr>
+					<tr>
+					<td>¿Qué hay de nuevo Scooby Doo?</td>
+					<td>Animación, misterio, Aventura</td>
+					<td>2002</td>
+					<td>3</td>
+					<td>Scooby Doo y sus amigos Fred, Daphne, Vilma y Shaggy viajan por el mundo para resolver misterios.</td>
+				</tr>
+					<tr>
+					<td>Mi niñera es una vampira</td>
+					<td>Acción, drama, Comedia</td>
+					<td>2011</td>
+					<td>2</td>
+					<td>Sigue a las aventura de Ethan que es vidente, Benny siendo un hechicero y Sarah, la niñera, que como el nombre dice, es una niñera.</td>
+				</tr>
+					<tr>
+					<td>Izombie</td>
+					<td>Ciencia Ficción, Drama</td>
+					<td>2015</td>
+					<td>5</td>
+					<td>Una zombi recién convertida acepta un trabajo en una oficina forense para obtener cerebros frescos, pero ella adquiere la personalidad de los dueños de los cerebros y ayuda a resolver casos.</td>
+				</tr>
+					<tr>
+					<td>Cásate con mi esposo</td>
+					<td>Drama, romance</td>
+					<td>2024</td>
+					<td>1</td>
+					<td>Cuando una mujer presencia la aventura entre su mejor amiga y su marido, es asesinada por ellos, retrocede en el tiempo para cambiar su futuro y buscar venganza.</td>
+				</tr>
+				
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+		</section>
+		<section style="overflow: auto">
+		<h2>Películas favoritas</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ex aut distinctio quae! Consequuntur obcaecati dolores facilis quod aspernatur illum ratione beatae blanditiis vero commodi ullam quo minus laboriosam consectetur dolorem fugiat dignissimos voluptate provident adipisci sunt sequi maiores, alias temporibus. Nesciunt illum repellendus error vel quasi. Quidem tenetur impedit consectetur ipsum culpa in omnis, nostrum odit praesentium ipsam blanditiis nihil sunt obcaecati consequuntur aut voluptatibus unde rem officia non pariatur repellendus ducimus, doloremque facere! Nesciunt sequi, consectetur laborum est.</p>
+			<table class="tabla_hover">
+			<thead>
+				<tr>
+					<th>Título</th>
+					<th>Género</th>
+					<th>Director</th>
+					<th>Año de estreno</th>
+					<th>Duración</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>Los increibles</td>
+					<td>Infantil, acción</td>
+					<td>Brad Bird</td>
+					<td>2004</td>
+					<td>115 minutos</td>
+				</tr>
+					<tr>
+					<td>Mi niñera es una vampira: La película</td>
+					<td>Terror, comedia</td>
+					<td>Bruce McDonald</td>
+					<td>2010</td>
+					<td>85 minutos</td>
+				</tr>
+					<tr>
+					<td>Sully: hazaña en el Hudson</td>
+					<td>Drama, biografía</td>
+					<td>Clint Eastwood</td>
+					<td>2016</td>
+					<td>96 minutos</td>
+				</tr>
+					<tr>
+					<td>Scooby Doo y la maldición de Cleopatra</td>
+					<td>Infantil, aventura</td>
+					<td>Joe Sichta</td>
+					<td>2005</td>
+					<td>79 minutos</td>
+				</tr>
+					<tr>
+					<td>Historia cruzadas</td>
+					<td>Drama, pieza de época</td>
+					<td>Tate taylor</td>
+					<td>2012</td>
+					<td>146 minutos</td>
+				</tr>
+					<tr>
+					<td>Talentos ocultos</td>
+					<td>Drama, ciencia ficción</td>
+					<td>Theodore Melfi</td>
+					<td>2017</td>
+					<td>127 minutos</td>
+				</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+		</section>
+	</main>	
+	<footer><h5>Hecho por: Vinizza Marianna Sampé Orozco</h5></footer>
+</body>
+</html>

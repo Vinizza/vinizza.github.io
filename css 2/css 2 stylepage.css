@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header,nav,main,footer{
+	/*width: 960px;*/
+	width:100%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F0ECE6;
+	}
+header{
+	/*width: 960px;*/
+	width: 100%;
+	height: 100px;
+	padding-left: center;
+	background-color: #F0ECE6;
+	text-align: center;
+	font-weight: bold;
+	color: #59180A;
+	padding: 10px;
+	font-size: 50pt;
+	font-family: WindSong;  
+	}
+nav{
+	font-family: Montserrat;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: #A64826;
+	padding: 10px;
+	padding-left: auto;
+	padding-right: auto;
+	li{
+		width: auto;
+		background-color: #F0ECE6;
+		color: saddlebrown;
+		margin-bottom: 5px;
+		text-align: center;
+		border-width: 3px;
+		border-color: #59180A;
+		border-style: solid;
+		display: inline-block;
+		font-size: 13pt;
+		padding: 20px;
+		margin-top: auto;
+	}
+}
+main{
+		padding: 50px;
+		padding: 80px;
+		}
+section{
+			/*width: 650px;*/
+			width: 80%;
+			background-color:#BFB0AA;
+			color: #855E6E;
+			margin-bottom: 20px;
+			margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 30px;
+			padding-bottom: 30px;
+			text-align: center;
+}
+footer{
+			padding-left: auto;
+			padding-right: auto;
+			background-color: #A64826;
+			padding: 50px;
+			color: #F2F2F2;
+			text-align: center
+		}
+a{
+			text-decoration: none;		
+		}
+		section a{
+			color: #59180A;
+			font-weight: bold;
+		}
+		section a: visited{
+			color: #A64826;
+		}
+		section a:hover{
+			color: #A64826;
+		}
+		nav li a{
+			color:#59180A; 
+				}
+		nav li a:hover{
+			color: #A64826;
+			font-weight: bold;
+					}
+		nav li:hover{
+			background-color: #F2F2F2;
+			width: 120px auto;
+					}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+		}
+h2,p{
+	color: #59180A;
+	font-family: Montserrat;
+	padding: 10px;
+	}
+h1{
+	font-size: 30pt;
+}
+h4{
+	font-size: 12pt;
+}
+p{
+	font-size: 12pt;
+}
+h2{
+	text-align: center;
+	font-size: 25pt;
+}
+dd, dt, li{
+	font-family: Montserrat;
+}
+#zippyferrero{
+	padding-bottom: 20px;
+}
+#zippysillon{
+	padding-bottom: 20px;
+}
+#barbasbanco{
+	width: 60%;
+	float: right;
+	padding: 5px;
+}
+#icono{
+	width: 32px;
+	height: auto;
+	
+}
+#fondo_section{
+	background-image: url("../pdf/imágenes/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-size: 140%;
+	color: #855E6E;
+}
+#fondo_section p{
+	color: #CE7095;
+	}
+#fondo_section h2{
+	color: #F7F1E1;
+}
+#filtro_imagen{
+	text-align: center;
+}
+#filtro_imagen img{
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	padding: 5px;
+}
+#img1{
+	filter: brightness(150%);
+}
+#img2{
+	filter: contrast(50%);
+}
+#img3{
+	filter: grayscale(100%);
+}
+#img4{
+	filter: invert(100%);
+}
+#img5{
+	filter: opacity(50%);
+}
+#img6{
+	filter: sepia(100%);
+}
+#img7{
+	filter: saturate(250%);
+}
+#img8{
+	filter: blur(3px);
+}
+#img9{
+	filter: drop-shadow(10px 15px 20px purple)
+}
+#img10{
+	filter: invert(10) blur(3px)
+}
+#img11{
+	filter: hue-rotate(100deg)
+}
+iframe{
+	padding-top: 20px;
+	display: block;
+	margin: 0 auto;
+}
+#amigas{
+	padding-bottom: 12px;
+}
+#vinizza{
+	filter: drop-shadow(5px 10px 10px #59180A)
+}
+#famili4{
+	padding-bottom: 10px;
+}
+ul,ol{
+	padding: 30px;
+		}
+dt,dl{
+	padding-bottom: 15px;
+	padding-top: 15px
+}
+#insta{
+font-family: Montserrat;	
+}
+form{
+			width: 100%;
+			height: auto;
+			padding: 30px;
+			background-color: #59180A;
+			color: #F0ECE6;
+			margin: 0 auto;
+			font-family: Montserrat;
+			font-size: 12pt;
+		}
+		label{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		label,input{
+			display: block;
+			margin-left: 10px;
+			}
+		input[type=text],input[type=password],input[type=number],input[type=tel],input[type=time],input[type=week],input[type=email],input[type=datetime-local],input[type=color]{
+			width: 100%;
+			color: #59180A;
+			padding: 8px;
+			font-weight: bold;
+			border:3px solid #BFB0AA;
+			border-radius: 10px;
+			background-color: #F0ECE6;
+			margin:auto;
+		}
+		input[type=submit]{
+			width: 30%;
+			background-color: #BFB0AA;
+			padding: 10px;
+			margin: 20px auto;
+			border-radius: 10px;
+			color: #59180A;
+		}
+		input[type=text]:focus, input[type=password]:focus{
+			background-color: #F0ECE6;
+			border: 3px solid #8F0042;
+			}
+		select{
+			width:100%;
+			margin-left: 10px;
+			background-color: #BFB0AA;
+			color: #59180A;
+			padding: 10px;
+			border-radius: 10px;
+			font-weight: bold;
+		}
+	input[type=radio]{
+    	display: inline-block;
+   		margin-right: 10px; 
+		text-align: left;
+
+}
